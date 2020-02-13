@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elementos semanticos en HTML5</title>
+    </head>
+    <body>
+        <!-- Colocar un texto en negrita -->
+        <p>Asi aparece una palabra en <b>negrita</b></p>
+        <p>En la descripcion de algunos productos normalmente aparecen <b>descripciones clave</b> en negrita</p>
+
+        <a href="#Partes_pelicula"> Ver partes de una pelicula</a>
+        <!-- Colocar un texto en cursiva -->
+        <p>Asi aparece una palabra en <i>cursiva</i></p>
+        <p>Estamos en la clase de <i>Desarrollo de portales web</i></p>
+        
+
+        <!-- Otros tipos de etiquetas semanticas -->
+        <p>En el 3<sup>er</sup> parcial deberan entregar un sitio</p>
+        <p>La cantidad de CO<sub>2</sub>en la atmofera crecio</p>
+
+        <!-- Saltos de linea -->
+        <p>La tierra se vuelve 100 <br/> <br><br>  toneladas mas pesada cada dia debido al polvo que proviene del espacios</p>
+
+        <!-- LINEAS HORIZONTALES -->
+        <p>Ve nus es el unciao planeta del sistema solar que gira en sentido contrario al restp</p>
+        <hr />
+        <p>Jupiter es mas grande que todos los otros planetas juntos</p>
+
+        <!-- Elemento strong -->
+        <p><strong>Cuidado:</strong> zona de curbas peligrosas.</p>
+        <p>Este juguete contiene piezas peque;as y <strong>no es recomendables para ni;os mendores de 5 a;os</strong></p>
+        <!-- Quotations (citas) -->
+        <blockquote><p>No temo a los ordenadores; lo que temo es quedarme sin ellos</p></blockquote>
+        <p><em>Isaac Asimov</em></p>
+        <blockquote><p>Una red de computadoras (también llamada red de ordenadores, red de comunicaciones de datos o red informática) es un conjunto de equipos nodos
+             y software conectados entre sí por 
+            medio de dispositivos físicos o inalámbricos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier 
+            otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.1​</p></blockquote>
+        <p>Fuente <b>wikipedia.org</b></p>
+
+        <p>Como A.A. milne dijo, <q>Algunas personas hablan como animales. No muchos de ellos escuchan. Este es el problema.</q></p>
+
+        <!--Abreviaciones-->
+        <p>La <abbr title="National aeronautics and space adminitration">NASA</abbr> fuen la primersa agencia espacial en colocar un hombre en la luna.</p>
+
+        <!-- Definiciones -->
+        <p>El libro <cite>A Brief History of time</cite> por Steohen Hawking ha vendido mas de diez millones de copia a nivel mundial</p>
+        <p><dfn>Un hoyo negro</dfn> es una region en el espacio de la que nada se puede escapar. ni incluso la luz</p>
+
+        <!-- Como escribir direcciones de correo electronico -->
+        <address><p>
+            <a href="mailto: lwill2897@gmail.com">lwill2897@gmail.com</a></p>
+            <p>742 av Siempre Viva</p>
+        </address>
+
+
+        <!-- Inserciones y eliminaciones -->
+        <p>Era la <del>peor</del> <ins>mejor</ins> idea que ella habia tenido</p>
+
+        <!-- Strirethough -->
+        <p>Esta computadora cuesta:</p>
+        <p><s>Solo L. 30,000.00</s></p>
+        <p>Ahora L. 27,000.00</p>
+
+        <!-- Listas -->
+        <!-- Listas ordenadas -->
+        <ol>
+            <li>Cortar las papas en cuatro partes</li>
+            <li>Sumergirlas en agua con sal de 15 a 20 minutos</li>
+            <li>Calentar leche, mantequilla y ajo</li>
+            <li>Sacar las papas, secarlas y aplastarlas</li>
+            <li>Mezclar las papas con la leche</li>
+        </ol>
+
+        <!-- Listas sin orden (viñetas) -->
+        <ul>
+            <li>Cortar las papas en cuatro partes</li>
+            <li>Sumergirlas en agua con sal de 15 a 20 minutos</li>
+            <li>Calentar leche, mantequilla y ajo</li>
+            <li>Sacar las papas, secarlas y aplastarlas</li>
+            <li>Mezclar las papas con la leche</li>
+        </ul>
+
+        <!-- Listas con definicion -->
+        <dl>
+            <dt>Sashimi</dt>
+            <dd>Es un plato japones que consiste en mariscos o pescado crudo, cortados finamnete aun que no tanto co,o el carpaccio.</dd>
+        </dl>
+        <dt>Scamorzo</dt>
+        <dd>Es un qeuso semi-dur tipico de la cosina elaborado en Italia con leche de vaca.
+            se puede elaborar de diferentes maneras.
+        </dd>
+
+        <!-- Listas anidadas -->
+        <>
+            <li>Toyota</li>
+            <li>Honda</li>
+            <ol>
+                <li>Civic</li>
+                <li>CR-V</li>
+                <li>Integra</li>
+                <li>Pilot</li>
+            </ol>
+            <li>Subaru</li>
+        </ul>
+
+        <!-- Hipervinculos -->
+        <!-- Hipervinculos a otro sitios -->
+        <h2>Sitios de reseñas de peliculas</h2>
+        <ul>
+            <li><a href="http://www.empireonline.com">Empire</a></li>
+            <li><a href="http://metacritic.com">Metacritic</a></li>
+            <li><a href="http://rottentomastoes.com">Rotten Tomatoes</a></li>
+            <li><a href="http://variety.com">Variety</a></li>
+        </ul>
+
+        <!-- Hipervinculo en una pesta;a nueva -->
+        <a href="http://www.imdb.com" target="_blank"> Internet Movie</a>
+
+        <!-- Hipervinculo hacia una parte especifica de la misma pagina -->
+        <h2 id="Partes_pelicula">Partes de una pelicula</h2>
+        <dl>
+            <dt>Arco</dt>
+            <dd>Una toma en la cual un sujeto es fotograciado por una</dd>
+            <dt>Intermedio</dt>
+            <dd>Unintercambio corto o una escena aparece, que no esta relacionada con la trama, que aparece dentro.</dd>
+            <dt>Prologo</dt>
+            <dd>Un discurso, prefacio a introduccion a una breve escena que precede</dd>
+        </dl>
+        <p>Clic para <a href="#top">Ir al comienzo</a></p>
+    </body>
+</html>
