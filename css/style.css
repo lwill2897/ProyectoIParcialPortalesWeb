@@ -30,8 +30,7 @@ p {
   display: block;
 }
 .main-content {
-  margin-top: 2.5em;
-  padding: 0;
+  margin-top: 1.25em;
 }
 .entry img:hover{
   transition: all 0.5s ease;
@@ -55,6 +54,7 @@ p {
 /* Acceder a los hijos de un elemento HTML */
 .main-nav a:hover {
   background-color: #f72020;
+  border-radius: 5px;
 }
 .main-nav a {
   color: #ffffff;
@@ -102,7 +102,7 @@ h3{
   text-align: center;
 }
 .footer-site h2 {
-  color: #fc04d2;
+  color: #000000;
 }
 .footer-site a {
   color: #b10474;
@@ -115,26 +115,24 @@ h3{
 }
 .footer-site p {
   color: #000000;
+  float: center;
 }
 @media (min-width: 768px) {
-  .footer-site .about-us {
+  .footer-site .about-us{
     float: left;
-    width: 35%;
+    width: 100%;
     text-align: left;
   }
-  .footer-site .footer-menu {
-    background-color: #000000;
-    overflow: hidden;
-    float: right;
-    width: 50%;
-    text-align: right;
+  .footer-site .about-us img{
+    width: 18.75em;
+    float: left;
+    margin: 0 1.25em 0 0;
   }
-  .footer-site .footer-menu a{
-    color: #ffffff;
-  }
-  .footer-site .footer-menu h2{
-    color: #ffffff;
-  }
+  .footer-site .about-us img:hover{
+    transition: all 0.5s ease;
+    transform: scale(0.9);
+    max-width: 250px;
+  }  
 }
 .copyright {  
   background-color: #e40f99;
@@ -145,6 +143,7 @@ h3{
   background-color: #e40f99;
   overflow: hidden;
   padding: 1em 1em;
+  top: 0;
 }
   .Imagenes img:hover{
     transition: all 0.5s ease;
