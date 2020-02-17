@@ -102,10 +102,10 @@ h3{
   text-align: center;
 }
 .footer-site h2 {
-  color: #000000;
+  color: #fc04d2;
 }
 .footer-site a {
-  color: #000000;
+  color: #b10474;
   text-decoration: none;
   font-size: 1.25em;
   margin-right: 1.25em;
@@ -123,15 +123,31 @@ h3{
     text-align: left;
   }
   .footer-site .footer-menu {
+    background-color: #000000;
+    overflow: hidden;
     float: right;
-    width: 65%;
+    width: 50%;
     text-align: right;
+  }
+  .footer-site .footer-menu a{
+    color: #ffffff;
+  }
+  .footer-site .footer-menu h2{
+    color: #ffffff;
   }
 }
 .copyright {  
-  background-color: #b10474;
+  background-color: #e40f99;
   padding: 1.25em 0;
 }
-.copyright p {
-  color: #ffffff;
+
+.Imagenes {
+  background-color: #e40f99;
+  overflow: hidden;
+  padding: 1em 1em;
 }
+  .Imagenes img:hover{
+    transition: all 0.5s ease;
+    transform: scale(0.9);
+    max-width: 250px;
+  }
