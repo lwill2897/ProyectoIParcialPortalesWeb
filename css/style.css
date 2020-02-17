@@ -1,4 +1,3 @@
-/* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html {
   box-sizing: border-box;
 }
@@ -23,6 +22,7 @@ p {
 .main-nav {
   margin-top: 0em;
   padding: 1.25em 0;
+  text-align: center;
 }
 .clearfix::after {
   content: "";
@@ -76,7 +76,7 @@ h2 {
   margin-bottom: 1.25em;
 }
 h3{
-  color: #ff0000;
+  color: #3da1ff;
 }
 .entry {
   margin-bottom: 3.75em;
@@ -102,7 +102,7 @@ h3{
   text-align: center;
 }
 .footer-site h2 {
-  color: #000000;
+  color: #e40f99;
 }
 .footer-site a {
   color: #b10474;
@@ -149,4 +149,7 @@ h3{
     transition: all 0.5s ease;
     transform: scale(0.9);
     max-width: 250px;
+  }
+  .Imagenes h2{
+    color: #000000;
   }
